@@ -1,6 +1,5 @@
-project: rnshah9/minlzma
+project: minlzma
 target: minlzdec
 
 cmds:
-  - cmd: /minlzma/build/minlzdec/minlzdec @@ out
-    filepath: /test.xz 
+  - cmd: /minlzdec @@ /dev/null
